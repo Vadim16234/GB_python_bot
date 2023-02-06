@@ -6,7 +6,7 @@ from geo import *
 
 open_weather_token = '4c5a015df3cc9900554218396f639c35'
 
-app = ApplicationBuilder().token("5886727935:AAGB2_2T2MwEgYpXqQJoDDJe8knIbTEaASU").build()
+app = ApplicationBuilder().token("TOKEN").build()
 
 app.add_handler(CommandHandler("hi", hi_command))
 app.add_handler(CommandHandler("time", time_command))
